@@ -1,0 +1,119 @@
+/*************************
+    General
+*************************/
+.default-btn::before {
+    background-color: #2A6AB2;
+    border: 1px solid #2A6AB2;
+}
+.newsletter-form .default-btn:hover span, .newsletter-form .default-btn:focus span, .newsletter-form .default-btn:active span {color: #2A6AB2; border: none}
+#scrollUp {background: #2A6AB2 none repeat scroll 0 0;}
+.breadcrumb-text h3 {color: #2A6AB2;}
+
+
+/*************************
+    Header
+*************************/
+.header-contact > a {border: 1px solid #2A6AB2;}
+.main-menu > nav > ul > li:hover > a {color: #2A6AB2;}
+.mean-container a.meanmenu-reveal {
+    border: 1px solid #2A6AB2;
+    color: #2A6AB2;
+}
+.mean-container a.meanmenu-reveal span {background-color: #2A6AB2}
+
+
+/*************************
+    Slider
+*************************/
+.banner-btn {border: 1px solid #2A6AB2}
+.banner-btn:hover {background: rgba(42, 106, 178, 0.5);}
+.slider-content h1 span{color: #2A6AB2}
+.owl-nav div {
+    background: rgba(42, 106, 178, 0.4);
+    color: #2A6AB2;
+}
+.one-page-arrow{border: 1px solid #2A6AB2}
+
+
+/*************************
+    Footer
+*************************/
+.twitt-content a {color: #2A6AB2;}
+.single-footer-widget button, .contact-form button{
+    background: #2A6AB2 none repeat scroll 0 0;
+    border: 1px solid #2A6AB2;
+}
+.single-footer-widget button:hover, .contact-form button:hover{color: #2A6AB2;}
+.single-footer-widget input:focus{border: 1px solid #2A6AB2;}
+.footer-text-area {background: #2A6AB2 none repeat scroll 0 0;}
+
+
+/*************************
+    Sections (Overrides for style.css)
+*************************/
+.single-content h3:hover a{
+    color: #2A6AB2 !important;
+}
+.single-content ul li i{
+    color: #2A6AB2 !important;
+}
+.single-img:after, .portfolio-img:after{
+    background: rgba(42, 106, 178, 0.7) !important;
+}
+.trainer-hover ul li:hover a{
+    color: #2A6AB2 !important;
+}
+.single-trainer:after, .blog-pic:after{
+    background: rgba(42, 106, 178, 0.7) none repeat scroll 0 0 padding-box content-box !important;
+}
+.event-content h4{
+	color: #2A6AB2 !important;
+}
+.blog-content a:hover{
+	color: #2A6AB2 !important;
+}
+.single-table:hover .table-head h2, .single-table:hover .table-body, .single-table:hover .table-body a{
+    background: #2A6AB2 !important;
+}
+.single-table:hover .table-head h2, .single-table:hover .table-body ul li, .single-table:hover .table-body a{
+    color: #fff !important;
+}
+.single-table:hover .table-body ul li{
+    border-bottom: 1px solid #2762a5 !important;
+}
+.single-table:hover .table-body ul li:last-child {
+    border-bottom: none !important;
+}
+.single-table:hover .table-body a{
+    box-shadow: 0 0 4px 4px #2762a5 !important;
+}
+.table-body a {
+    color: #2A6AB2 !important;
+}
+.single-testimonial {
+    background: #2A6AB2 none repeat scroll 0 0 !important;
+}
+.single-testimonial i{
+    background: #2A6AB2 !important;
+}
+.newsletter-wrapper{
+    background: #2A6AB2 !important;
+}
+.newsletter-content.section-title h2:after{background: none !important;}
+
+#mc-form .default-btn:hover{
+	color: #2A6AB2 !important 
+}
+#mc-form > input {
+	background: #4EADDE !important;
+}
+.section-title h2:after{
+    background: url(../../img/icon/titlecustom.png) !important;
+}
+
+
+
+#1d497c
+
+
+
