@@ -70,7 +70,7 @@
     color: #2A6AB2;
 }
 .single-trainer:after, .blog-pic:after{
-    background: rgba(42, 106, 178, 0.7) none repeat scroll 0 0 padding-box content-box;
+    background: rgba(42, 106, 178, 0.0) none repeat scroll 0 0 padding-box content-box;
 }
 .event-content h4{
 	color: #2A6AB2;
