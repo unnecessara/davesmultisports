@@ -52,63 +52,69 @@
     Sections (Overrides for style.css)
 *************************/
 .single-content h3:hover a{
-    color: #2A6AB2 !important;
+    color: #2A6AB2;
 }
 .single-content ul li i{
-    color: #2A6AB2 !important;
+    color: #2A6AB2;
+}
+.single-content p{
+    padding: 20px 40px;
+}
+.single-class .single-content p {
+	height: 184px;
 }
 .single-img:after, .portfolio-img:after{
     background: rgba(42, 106, 178, 0.7) !important;
 }
 .trainer-hover ul li:hover a{
-    color: #2A6AB2 !important;
+    color: #2A6AB2;
 }
 .single-trainer:after, .blog-pic:after{
-    background: rgba(42, 106, 178, 0.7) none repeat scroll 0 0 padding-box content-box !important;
+    background: rgba(42, 106, 178, 0.7) none repeat scroll 0 0 padding-box content-box;
 }
 .event-content h4{
-	color: #2A6AB2 !important;
+	color: #2A6AB2;
 }
 .blog-content a:hover{
-	color: #2A6AB2 !important;
+	color: #2A6AB2;
 }
 .single-table:hover .table-head h2, .single-table:hover .table-body, .single-table:hover .table-body a{
-    background: #2A6AB2 !important;
+    background: #2A6AB2;
 }
 .single-table:hover .table-head h2, .single-table:hover .table-body ul li, .single-table:hover .table-body a{
-    color: #fff !important;
+    color: #fff;
 }
 .single-table:hover .table-body ul li{
-    border-bottom: 1px solid #2762a5 !important;
+    border-bottom: 1px solid #2762a5;
 }
 .single-table:hover .table-body ul li:last-child {
-    border-bottom: none !important;
+    border-bottom: none;
 }
 .single-table:hover .table-body a{
-    box-shadow: 0 0 4px 4px #2762a5 !important;
+    box-shadow: 0 0 4px 4px #2762a5;
 }
 .table-body a {
-    color: #2A6AB2 !important;
+    color: #2A6AB2;
 }
 .single-testimonial {
-    background: #2A6AB2 none repeat scroll 0 0 !important;
+    background: #2A6AB2 none repeat scroll 0 0;
 }
 .single-testimonial i{
-    background: #2A6AB2 !important;
+    background: #2A6AB2;
 }
 .newsletter-wrapper{
-    background: #2A6AB2 !important;
+    background: #2A6AB2;
 }
-.newsletter-content.section-title h2:after{background: none !important;}
+.newsletter-content.section-title h2:after{background: none;}
 
 #mc-form .default-btn:hover{
-	color: #2A6AB2 !important 
+	color: #2A6AB2; 
 }
 #mc-form > input {
-	background: #4EADDE !important;
+	background: #4EADDE;
 }
 .section-title h2:after{
-    background: url(../../img/icon/titlecustom.png) !important;
+    background: url(../../img/icon/titlecustom.png);
 }
 
 
