@@ -72,10 +72,8 @@
 	$('.testimonial-owl').owlCarousel({
 		loop:true,
 		margin:0,
-        dots: true,
+        dots:true,
 		nav:false,
-		animateOut: 'slideOutDown',
-		animateIn: 'slideInDown',		
 		autoplay:false,
 		smartSpeed:3000,
 		responsive:{
@@ -97,7 +95,6 @@
     $(".blog-carousel").owlCarousel({
         loop:true,
         items:3,
-        dots: false,
 		nav:false,
         responsive:{
             0:{

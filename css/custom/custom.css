@@ -60,7 +60,7 @@
 .single-content p{
     padding: 20px 40px;
 }
-.single-class .single-content p {
+.single-class-custom .single-content p {
 	height: 184px;
 }
 .single-img:after, .portfolio-img:after{
@@ -98,10 +98,22 @@
 }
 .single-testimonial {
     background: #2A6AB2 none repeat scroll 0 0;
+    padding: 40px 105px 10px 105px;
+    margin-bottom: 20px;
 }
 .single-testimonial i{
     background: #2A6AB2;
 }
+.single-testimonial img {
+    position: absolute;
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0px #ababab;
+    left: -45px;
+    top: -45px;
+}
+
 .newsletter-wrapper{
     background: #2A6AB2;
 }
