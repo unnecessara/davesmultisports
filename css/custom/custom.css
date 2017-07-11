@@ -25,10 +25,16 @@
 /*************************
     Slider
 *************************/
-.banner-btn {border: 1px solid #2A6AB2}
-.banner-btn:hover {background: rgba(42, 106, 178, 0.5);}
+.banner-btn {
+	border: 1px solid #2A6AB2;
+	color: #2A6AB2;
+}
+.banner-btn:hover {
+	background: rgba(42, 106, 178, 0.5);
+	color: #fff;
+}
 .slider-content h1 span{color: #2A6AB2}
-.owl-nav div {
+.owl-theme .owl-nav div {
     background: rgba(42, 106, 178, 0.4);
     color: #2A6AB2;
 }
@@ -46,6 +52,17 @@
 .single-footer-widget button:hover, .contact-form button:hover{color: #2A6AB2;}
 .single-footer-widget input:focus{border: 1px solid #2A6AB2;}
 .footer-text-area {background: #2A6AB2 none repeat scroll 0 0;}
+
+.socialmedia-list li{
+	display:inline-block !important;
+	padding: 20px 10px;
+	margin-left:40px;
+}
+.single-footer-widget .socialmedia-list li .socialmedia-icon {
+	font-size: 45px;
+	margin-right:8px;
+	color: #2A6AB2;
+}
 
 
 /*************************
@@ -98,7 +115,7 @@
 }
 .single-testimonial {
     background: #2A6AB2 none repeat scroll 0 0;
-    padding: 40px 105px 10px 105px;
+    padding: 40px 35px 10px 35px;
     margin-bottom: 20px;
 }
 .single-testimonial i{

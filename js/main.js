@@ -51,9 +51,9 @@
         animateIn: 'fadeIn',
         smartSpeed: 2500,
         items:1,
+        dots: false,
         nav:true,
         navText: ["<i class='zmdi zmdi-chevron-left'></i>","<i class='zmdi zmdi-chevron-right'></i>"],
-        dots:true,
         responsive:{
             0:{
                 items:1
@@ -73,9 +73,10 @@
 		loop:true,
 		margin:0,
         dots:true,
-		nav:false,
+		nav:true,
 		autoplay:false,
 		smartSpeed:3000,
+        navText: ["<i class='zmdi zmdi-chevron-left'></i>","<i class='zmdi zmdi-chevron-right'></i>"],
 		responsive:{
 			0:{
 				items:1
