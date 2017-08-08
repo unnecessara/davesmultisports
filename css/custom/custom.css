@@ -98,6 +98,11 @@
 .event-content h4{
 	color: #2A6AB2;
 }
+#boxing-gallery .grid .grid-item {
+
+padding-bottom: 30px;
+
+}
 .blog-content a:hover{
 	color: #2A6AB2;
 }
