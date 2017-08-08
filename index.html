@@ -988,6 +988,11 @@
                             element.css('background', '#53B298');
                             element.css('border-color', '#53B298');
                          }
+                    },
+                    eventClick: function(event) {
+                        if (event.url) {
+                            return false;
+                        }
                     }
                 
                 })
