@@ -20,6 +20,9 @@
         <link rel="stylesheet" href="css/owl.carousel.min.css">
 <!--         <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
         <link rel="stylesheet" href="css/custom/custom.css">
+
+        <link rel='stylesheet' href='css/fullcalendar.css' />
+        
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -301,8 +304,13 @@
                             <p>Make sure to come 10 - 15 minutes before the start time to get you set up with the right gear.</p>
                         </div>
                     </div>
-                </div>    
+                </div>
                 <div class="row">
+                    <div class="col-xs-12">
+                        <div id='calendar'></div>
+                    </div>
+                </div>    
+                <!-- <div class="row">
                     <div class="col-xs-12">                             
                         <div class="scehedule-table table-responsive text-center">
                             <table>
@@ -415,7 +423,7 @@
                             </table>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- Schedule Area End -->
@@ -914,6 +922,9 @@
         <script src="js/jquery.magnific-popup.js"></script>  
         <script src="js/plugins.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSLSFRa0DyBj9VGzT7GM6SFbSMcG0YNBM "></script> 
+        <script src='js/moment.min.js'></script>
+        <script src='js/fullcalendar.js'></script>
+        <script type='text/javascript' src='js/gcal.js'></script>
         <script>
 			function initialize() {
 			  var mapOptions = {
@@ -937,6 +948,51 @@
                 
 			google.maps.event.addDomListener(window, 'load', initialize);
 		</script>
+        <script>
+            $(document).ready(function() {
+                $('#calendar').fullCalendar({
+                    googleCalendarApiKey: 'AIzaSyBSqB-8Ckd6jwilmqj4lkiotplBxihSvk4',
+                    events: {
+                        googleCalendarId: 'davesmultisports@gmail.com'
+                    },
+                    header: {
+                        left:   'title',
+                        center: '',
+                        right:  'today month agendaWeek prev,next '
+                    },
+                    height: 'auto',
+                    defaultView: 'agendaWeek',
+                    views: {
+                        agenda: {
+                            minTime: "10:00:00",
+                            maxTime: "23:00:00",
+                            allDaySlot: false,
+                            // slotDuration: '01:00:00'
+                        }
+                    },
+                    eventRender: function( event, element, view ) { 
+                         if (event.title[0] == "T") {
+                             //apply your logic here, make changes to element.
+                            element.css('background', '#BF473C');
+                            element.css('border-color', '#BF473C');
+                         }
+                         else if (event.title[0] == "L") {
+                            element.css('background', '#6A607F');
+                            element.css('border-color', '#6A607F');
+                         }
+                         else if (event.title[0] == "S") {
+                            element.css('background', '#2A6AB2');
+                            element.css('border-color', '#2A6AB2');
+                         }
+                         else if (event.title[0] == "O") {
+                            element.css('background', '#53B298');
+                            element.css('border-color', '#53B298');
+                         }
+                    }
+                
+                })
+            });
+        </script>
         <script src="js/main.js"></script>
     </body>
 </html>
