@@ -27,13 +27,13 @@
 *************************/
 .banner-btn {
 	border: 1px solid #2A6AB2;
-	color: #2A6AB2;
+	color: #fff;
 }
 .banner-btn:hover {
 	background: rgba(42, 106, 178, 0.5);
 	color: #fff;
 }
-.slider-content h1 span{color: #2A6AB2}
+.slider-content h1 span{color: #fff}
 .owl-theme .owl-nav div {
     background: rgba(42, 106, 178, 0.4);
     color: #2A6AB2;
