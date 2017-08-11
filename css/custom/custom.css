@@ -69,11 +69,6 @@
     Sections (Overrides for style.css)
 *************************/
 
-.about-image {
-	position: relative;
-    z-index: 2;
-    margin: 10px;
-}
 .single-content h3:hover a{
     color: #2A6AB2;
 }
