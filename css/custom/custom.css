@@ -40,6 +40,9 @@
 }
 .one-page-arrow{border: 1px solid #2A6AB2}
 
+.slider-area .owl-nav div {
+    color: white;
+}
 
 /*************************
     Footer
