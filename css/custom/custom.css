@@ -84,6 +84,10 @@
 .single-class-custom .single-content p {
 	height: 300px;
 }
+.single-class-custom ul li {
+    display: block;
+}
+
 .single-img:after, .portfolio-img:after{
     background: rgba(42, 106, 178, 0.7) !important;
 }
@@ -139,7 +143,9 @@ padding-bottom: 30px;
     left: -45px;
     top: -45px;
 }
-
+.single-testimonial h2 {
+    padding: 15px;
+}
 .newsletter-wrapper{
     background: #2A6AB2;
 }
@@ -154,5 +160,13 @@ padding-bottom: 30px;
 .section-title h2:after{
     background: url(../../img/icon/titlecustom.png);
 }
+
+#address-link {
+    color: inherit;
+}
+#address-link:hover {
+    color: #2A6AB2;
+}
+
 
 
