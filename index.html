@@ -258,7 +258,7 @@
                         <div class="col-md-4">
                             <div class="single-class-custom">
                                 <div class="single-img">
-                                    <img src="img/classes/dmcfit.gif" alt="class">
+                                    <img src="img/classes/boxercise.jpg" alt="class">
                                     <!-- <div class="gallery-icon">
                                                                 <a class="image-popup" href="img/classes/personaltraining.gif">
                                                                     <i class="zmdi zmdi-zoom-in"></i>
@@ -266,12 +266,15 @@
                                                             </div> -->
                                 </div>
                                 <div class="single-content">
-                                    <h3>DMC Fit</h3>
+                                    <h3>Boxercise</h3>
                                     <p>
-                                        Fit is a conditioning class that is run by our boxing coaches.  This co-ed class offers a great all round workout. Each session is different – anticipate a variety of cardio, toning, strength training exercises including (but not restricted to) medicine balls, tension bands and hand weights . Please note that this is not a boxing or kickboxing class.
+                                        Boxercise is a conditioning class that is run by our boxing coaches. This co-ed class offers a great all-round workout.
+                                        Each session is different – anticipate a variety of cardio, toning, strength training exercises including (but not
+                                        restricted to) medicine balls, tension bands and hand weights . We use heavy bags and pads. Gloves and wraps are
+                                        required for this class.
                                     </p>
                                     <ul>
-                                        <li><i class="zmdi zmdi-face"></i>Madeleine Kendall (Tuesday) & Candace Ellicott (Thursday)</li>
+                                        <li><i class="zmdi zmdi-face"></i>Madeleine Kendall</li>
                                         <li><i class="zmdi zmdi-alarm"></i>Check our <a href="#schedule"><strong>schedule</strong></a> for times</li>
                                     </ul>
                                 </div>
@@ -380,7 +383,7 @@
                         <div class="col-sm-6">
                             <div class="single-class-custom">
                                 <div class="single-img">
-                                    <img src="img/classes/dmcfit.gif" alt="class">
+                                    <img src="img/classes/boxercise.jpg" alt="class">
                                     <!-- <div class="gallery-icon">
                                                                                         <a class="image-popup" href="img/classes/personaltraining.gif">
                                                                                             <i class="zmdi zmdi-zoom-in"></i>
@@ -388,18 +391,15 @@
                                                                                     </div> -->
                                 </div>
                                 <div class="single-content">
-                                    <h3>DMC Fit</h3>
+                                    <h3>Boxercise</h3>
                                     <p>
-                                        Fit is a conditioning class that is run by our boxing coaches.  This co-ed class offers a great all
-                                        round workout. Each
-                                        session is different – anticipate a variety of cardio, toning, strength training exercises including
-                                        (but not
-                                        restricted to) medicine balls, tension bands and hand weights . Please note that this is not a boxing or
-                                        kickboxing
-                                        class.
+                                        Boxercise is a conditioning class that is run by our boxing coaches. This co-ed class offers a great all-round workout.
+                                        Each session is different – anticipate a variety of cardio, toning, strength training exercises including (but not
+                                        restricted to) medicine balls, tension bands and hand weights . We use heavy bags and pads. Gloves and wraps are
+                                        required for this class.
                                     </p>
                                     <ul>
-                                        <li><i class="zmdi zmdi-face"></i>Madeleine Kendall (Tuesday) & Candace Ellicott (Thursday)</li>
+                                        <li><i class="zmdi zmdi-face"></i>Madeleine Kendall</li>
                                         <li><i class="zmdi zmdi-alarm"></i>Check our <a href="#schedule"><strong>schedule</strong></a> for times
                                         </li>
                                     </ul>
@@ -1234,22 +1234,27 @@
                         }
                     },
                     eventRender: function( event, element, view ) { 
-                         if (event.title[0] == "T") { // Technical Boxing
+                         if (event.title === "Boxing (competition)") {
                              //apply your logic here, make changes to element.
                             element.css('background', '#BF473C');
                             element.css('border-color', '#BF473C');
                          }
-                         else if (event.title[0] == "W") { // Ladies kickboxing
+                         else if (event.title === "Boxercise") {
                             element.css('background', '#6A607F');
                             element.css('border-color', '#6A607F');
                          }
-                         else if (event.title[0] == "S") { // Stress Reliever
+                         else if (event.title === "Women's kickboxing") { // Women's kickboxing
                             element.css('background', '#2A6AB2');
                             element.css('border-color', '#2A6AB2');
                          }
                          else if (event.title[0] == "K") { // Kids can kick
                             element.css('background', '#FFD055');
                             element.css('border-color', '#FFD055');
+                         }
+                         else if (event.title[0] == "C") { // Cleaning
+                             element.css('background', '#D3D3D3');
+                             element.css('border-color', '#808080');
+                             element.css('color', '#7f7f7f');
                          }
                     },
                     eventClick: function(event) {
